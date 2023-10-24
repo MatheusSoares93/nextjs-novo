@@ -1,7 +1,11 @@
 import Image from 'next/image'
+import Menu from './Menu/Page'
 
 export default function Home() {
   return (
-    <h1>Matheus Soares de Almeida</h1>
+    <>
+    
+      <Menu/>
+    </>
   )
 }
