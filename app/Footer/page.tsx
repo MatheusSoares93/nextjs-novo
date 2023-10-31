@@ -3,7 +3,7 @@ export default function Footer (){
 
     <>
     <div className="flex bg-black w-full">
-    <article className="text-amber-500 w-1/4 pb-8">
+    <article className="text-amber-500 w-1/4 pb-8 pl-20">
       <h1 className="pt-20 pl-10">Titulo</h1>
       <br />
       <hr />
@@ -11,7 +11,7 @@ export default function Footer (){
     </article>
 
     <article className="w-1/4 pb-8">
-      <h1 className="pt-8 pl-28 text-white">Links</h1>
+      <h1 className="pt-8 pl-28 text-white">Useful Links</h1>
       <ul className="pt-8 pl-4">
         <li className="pt-4 pl-28 text-white">Link1</li>
         <li className="pt-4 pl-28 text-white">Link2</li>
@@ -33,7 +33,7 @@ export default function Footer (){
     </article>
 
     <article className="w-1/4 pb-8 ">
-      <h1 className="pt-8 pl-4 bg-white w-52">Envie seu e-mail <button className="pt-8 pl-4 bg-amber-500">Enviar</button></h1>
+      <h1 className="pt-0 pl-4 bg-white w-52 h-10">Envie seu e-mail <button className="pt-0 pl-4 bg-amber-500">Enviar</button></h1>
     </article>
 
     </div>
